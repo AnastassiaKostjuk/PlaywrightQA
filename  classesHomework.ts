@@ -10,7 +10,6 @@ person1.firstName = "Hermione";
 person1.lastName = "Granger";
 console.log(person1.firstName + " " + person1.lastName);
 
-
 // task 2 - Class with a Construction
 
 class Book {
