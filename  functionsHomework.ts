@@ -8,6 +8,7 @@ function convertToFahrenheit ( celsius : number) : number {
 
 console.log(convertToFahrenheit(32))
 
+
 // task 2 - Greeting Generator
 
 // @ts-ignore
@@ -18,6 +19,7 @@ function greetUser ( firstName : string, lastName : string) : string {
 
 console.log(greetUser("Hermione", "Granger"));
 
+
 // task 3 -  Rectangle Area Calculator
 
 // @ts-ignore
@@ -27,6 +29,7 @@ function  calculateArea (width : number, height : number) : number {
 }
 
 console.log(calculateArea(8, 9))
+
 
 // task 4 - Simple Sum
 
