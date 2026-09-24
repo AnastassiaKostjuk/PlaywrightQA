@@ -11,7 +11,7 @@ console.log("The area of a rectangles is:", rectangleArea);
 
 let bodyWeigth : number = 55; // kg
 let bodyHeight : number = 1.67; // meters
-let BMI : number = bodyWeigth / (bodyHeight * 2);
+let BMI : number = bodyWeigth / (bodyHeight * bodyHeight);
 console.log("The BMI is:", BMI);
 
 // Task 3 - convert Celsius to Fahrenheit
@@ -23,7 +23,7 @@ console.log(celsiusNumber + " celsius is equal to " + fahrenheitNumber + " fahre
 // Task 4 - is age >= 18?
 
 let age : number = 30; // person`s age
-let isAdult : boolean = age >= 30;
+let isAdult : boolean = age >= 18;
 console.log("Is this person over 18 years old? :", isAdult);
 
 // Task 5 - concatenation of two strings
@@ -49,8 +49,8 @@ console.log("Does this person has acces: " + hasAcces2);
 
 let userInput : string = '18';
 let actualAge : number = 18;
-//let isEqualLoose= userInput == actualAge; // возникает ошибка!
-//let isEqualStrict = userInput === actualAge; // возникает ошибка!
+let isEqualLoose= (userInput as any) == actualAge; // возникает ошибка!
+let isEqualStrict = (userInput as any) === actualAge; // возникает ошибка!
 
 // Task 8 - Type conversion from string to number
 

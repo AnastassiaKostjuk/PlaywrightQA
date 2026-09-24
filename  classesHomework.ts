@@ -1,14 +1,19 @@
 // task 1 -  A class with only fields (no constructor)
 
 class Person {
-    firstName : string;
-    lastName : string;
+    firstName!: string;
+    lastName!: string;
 }
 
 const person1 = new Person();
 person1.firstName = "Hermione";
 person1.lastName = "Granger";
 console.log(person1.firstName + " " + person1.lastName);
+
+const person2 = new Person();
+person2.firstName = "Luna";
+person2.lastName = "Lovegood";
+console.log(person2.firstName + " " + person2.lastName);
 
 // task 2 - Class with a Construction
 
